@@ -6,12 +6,25 @@ import ReactDOM from 'react-dom/client';
 const testElement = <h1>My Todo List</h1>
 const testElement2 = <h2>Made with React</h2>
 
+
 //Making root (where everything renders)
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
+//------!RENDER HERE!----------
 //render to root using render
-root.render(testElement);
+root.render();
 //root.render(testElement2); This cancels my first render... interesting
+
+
+
+
+ 
+
+
+
+
+
+
 
 
 
