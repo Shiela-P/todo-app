@@ -11,6 +11,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 //render to root using render
 root.render(testElement);
+//root.render(testElement2); This cancels my first render... interesting
 
 
 
